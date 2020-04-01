@@ -1,0 +1,103 @@
+@-moz-document domain("docs.raku.org") {
+
+body
+{
+    background: #222222 !important;
+    color: #d2d2d2;
+}
+
+#header > a
+{
+    color: #ffffff;
+}
+
+#content
+{
+    background: #181818;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    color: #d2d2d2;
+}
+
+#content h1 a,
+#content h2 a,
+#content h3 a,
+#content h4 a,
+#content h5 a,
+#content h6 a
+{
+    color: #ffffff;
+}
+
+table#TOC code
+{
+    color: #ffffff;
+}
+
+pre
+{
+    color: #d2d2d2;
+}
+
+a code
+{
+    color: #666666;
+}
+
+h1#Type_Graph + figure > svg
+{
+    filter: invert(100%);
+}
+
+.keyword
+{
+    color: #888888;
+}
+
+.menu-item.selected
+{
+    box-shadow: none;
+}
+
+.green
+{
+    background-color: #181818;
+    border-color: #404040;
+}
+
+.dark-green
+{
+    background-color: #282828;
+    border-color: #505050;
+}
+
+.darker-green
+{
+    background-color: #383838;
+    border-color: #606060;
+}
+
+.yellow
+{
+    background-color: #484848;
+    border-color: #707070;
+}
+
+.pretty-box
+{
+    box-shadow: none;
+}
+
+a
+{
+    color: #afafaf;
+}
+
+a:visited
+{
+    color: #8faf8f;
+}
+
+}
